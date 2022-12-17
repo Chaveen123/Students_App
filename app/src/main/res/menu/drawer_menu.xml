@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="General">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_activities"
+                    android:icon="@drawable/ic_baseline_notes_24"
+                    android:title="Activities"/>
+
+                <item android:id="@+id/nav_calendar"
+                    android:icon="@drawable/ic_baseline_calendar_month_24"
+                    android:title="Calendar"/>
+                <item android:id="@+id/nav_notes"
+                    android:icon="@drawable/ic_baseline_library_books_24"
+                    android:title="Notes and Reminders"/>
+                <item android:id="@+id/nav_track"
+                    android:icon="@drawable/ic_baseline_location_searching_24"
+                    android:title="Find my Item"/>
+            </group>
+            <item android:id="@+id/nav_timetable"
+                android:icon="@drawable/ic_baseline_table_chart_24"
+                android:title="Timetable"/>
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
